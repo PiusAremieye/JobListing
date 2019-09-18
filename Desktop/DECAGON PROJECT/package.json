@@ -1,0 +1,11 @@
+{
+  "name": "decagon-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jobListing.json",
+  "scripts": {
+    "json-server": "json-server --watch jobListing.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

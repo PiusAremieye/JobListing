@@ -1,0 +1,206 @@
+{
+  "jobs": [
+    {
+      "name": "Software designer",
+      "company": "Andela",
+      "state": "Lagos",
+      "dept": "Computer science",
+      "des": "jaguifoa;ieieds",
+      "id": 1
+    },
+    {
+      "name": "Engineer",
+      "company": "Shell cooperation",
+      "state": "Abuja",
+      "dept": "Engineering",
+      "des": "jaegfuoas",
+      "id": 2
+    },
+    {
+      "name": "Engineer",
+      "company": "Shell cooperation",
+      "state": "Abuja",
+      "dept": "Engineering",
+      "des": "jaegfuoas",
+      "id": 2
+    },
+    {
+      "name": "Engineer",
+      "company": "Shell cooperation",
+      "state": "Abuja",
+      "dept": "Engineering",
+      "des": "jaegfuoas",
+      "id": 2
+    },
+    {
+      "name": "Engineer",
+      "company": "Shell cooperation",
+      "state": "Abuja",
+      "dept": "Engineering",
+      "des": "jaegfuoas",
+      "id": 2
+    }
+  ],
+  "newUsers": [
+    {
+      "id": 1,
+      "fname": "Dave",
+      "lname": "simon",
+      "email": "ebi44ril@gmail.com",
+      "pass": "123456789",
+      "phone": "08164291922",
+      "gender": "male",
+      "location": "abuja"
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Anambra"
+    },
+    {
+      "id": 2,
+      "name": "Abuja"
+    },
+    {
+      "id": 3,
+      "name": "Kano"
+    },
+    {
+      "id": 4,
+      "name": "Kaduna"
+    },
+    {
+      "id": 5,
+      "name": "Lagos"
+    },
+    {
+      "id": 6,
+      "name": "Katsina"
+    },
+    {
+      "id": 7,
+      "name": "Oyo"
+    },
+    {
+      "id": 8,
+      "name": "Kebbi"
+    },
+    {
+      "id": 9,
+      "name": "Rivers"
+    },
+    {
+      "id": 10,
+      "name": "Bauchi"
+    },
+    {
+      "id": 11,
+      "name": "Jigawa"
+    },
+    {
+      "id": 12,
+      "name": "Benue"
+    },
+    {
+      "id": 13,
+      "name": "Borno"
+    },
+    {
+      "id": 14,
+      "name": "Delta"
+    },
+    {
+      "id": 15,
+      "name": "Imo"
+    },
+    {
+      "id": 16,
+      "name": "Niger"
+    },
+    {
+      "id": 17,
+      "name": "Akwa ibom"
+    },
+    {
+      "id": 18,
+      "name": "Ogun"
+    },
+    {
+      "id": 19,
+      "name": "Sokoto"
+    },
+    {
+      "id": 20,
+      "name": "Ondo"
+    },
+    {
+      "id": 21,
+      "name": "Osun"
+    },
+    {
+      "id": 22,
+      "name": "Kogi"
+    },
+    {
+      "id": 23,
+      "name": "Zamfara"
+    },
+    {
+      "id": 24,
+      "name": "Enugu"
+    },
+    {
+      "id": 25,
+      "name": "Edo"
+    },
+    {
+      "id": 26,
+      "name": "Plateau"
+    },
+    {
+      "id": 27,
+      "name": "Adamawa"
+    },
+    {
+      "id": 28,
+      "name": "Cross rivers"
+    },
+    {
+      "id": 29,
+      "name": "Abia"
+    },
+    {
+      "id": 30,
+      "name": "Ekiti"
+    },
+    {
+      "id": 31,
+      "name": "Kwara"
+    },
+    {
+      "id": 32,
+      "name": "Gombe"
+    },
+    {
+      "id": 33,
+      "name": "Yobe"
+    },
+    {
+      "id": 34,
+      "name": "Taraba"
+    },
+    {
+      "id": 35,
+      "name": "Ebonyi"
+    },
+    {
+      "id": 36,
+      "name": "Nasarawa"
+    },
+    {
+      "id": 37,
+      "name": "Bayelsa"
+    }
+  ]
+}
