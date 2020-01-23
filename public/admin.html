@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Job Listing Application</title>
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="bootstrap3/js/bootstrap.min.js"></script>
+        <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            footer {
+                background-color:black;
+                color: aliceblue;
+                padding: 25px;
+            }
+        </style>        
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="color: whitesmoke">JOB SEEKERS</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">                      
+                        <li><a href="logout.html"><span class="glyphicon glyphicon-user"></span> Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        
+        <div class="container" id="wel">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <form class="form" id="form">
+                        <div class="form-group">
+                            <label>Job Title</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Job Title" required/>
+                        </div>
+                        <div class="form-group">
+                            <label>Comapany Name</label>
+                            <input type="text" class="form-control" name="com" id="cname" placeholder="Company Name" required/>
+                        </div>
+                        <div class="form-group">
+                            <label>Location
+                                <select class="form-control" id="states" name="states">                                    
+                                </select>
+                            </label>    
+                        </div>
+                        <div class="form-group">
+                            <label>Category
+                                <select class="form-control" id="category" name="category">
+                                </select>
+                            </label>
+                        </div>          
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea class="form-control" name="description" id="des" placeholder="Job Description" required></textarea>
+                        </div>        
+                        <button class="btn btn-primary" id="sub-btn" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                </div>
+            </div>
+        </div>
+        <hr>
+             
+        <div class="container">
+            <h4>Job Lists</h4>
+            <table class="table table-bordered table-responsive table-striped table-hover">
+                <thead>
+                    <th style="width: 100px">S/N</th>
+                    <th style="width: 100px">Job Name</th>
+                    <th style="width: 100px">Company</th>
+                    <th style="width: 100px">State</th>
+                    <th style="width: 100px">Category</th>
+                    <th style="width: 100px">Description</th>
+                    <th style="width: 100px">Delete</th>
+                    <th style="width: 100px">Edit</th>
+                </thead>
+                <tbody id="tbody">                
+                </tbody>
+            </table>
+        </div> 
+        <div id="myModal" class="modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Update this information
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body update">
+                    </div>
+                </div>                        
+            </div>
+        </div> 
+        <footer class="container-fluid text-center">
+            <p>&copy Jobseeker 2019</p>
+            <p>Decagon Institute</p>
+        </footer>           
+    </body>
+    <script src="jquery/admin.js"></script>
+    <script src="jquery/session.js"></script>
+</html> 

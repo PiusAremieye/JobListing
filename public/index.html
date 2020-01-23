@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Job Listing Application</title>
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="bootstrap3/js/bootstrap.min.js"></script>
+        <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">        
+
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            .pop:hover{
+                text-decoration: none;
+                cursor:pointer;
+            }
+            footer {
+                background-color:black;
+                color: aliceblue;
+                padding: 25px;
+            }
+            .form-group{
+                margin-right: 10px;
+            }
+        </style>
+      </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="color: whitesmoke">JOB SEEKERS</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Admin Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div>
+                <img src="image/banner-bg.jpg" width="100%">
+            </div>
+            <div class="panel-body">
+                <form class="form form-inline">                       
+                    <div class="form-group">
+                        <label>Category
+                            <select class="form-control" id="jobFunction">
+                                <option class="jobFunction" value="All">All</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Location
+                            <select class="form-control" id="states">
+                                <option class="loc-states" value="All">All</option>                                
+                            </select>
+                        </label>    
+                    </div>
+                </form>
+            </div>
+        </div>           
+            <div class="container"> 
+                <h2 class="page-header">Top Jobs</h2>
+                <div class="row" id="display"></div>
+                <div id="myModal" class="modal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Job Description</h4>
+                            </div>
+                            <div class="modal-body mod">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>  
+            </div>
+        <hr>                        
+        <footer class="container-fluid text-center">
+            <p>&copy Jobseeker 2019</p>
+            <p>Decagon Institute</p>
+        </footer>                        
+    </body>
+    <script src="jquery/admin.js"></script>
+</html>

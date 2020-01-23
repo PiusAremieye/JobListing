@@ -1,0 +1,270 @@
+{
+  "jobs": [
+    {
+      "name": "Software designer",
+      "company": "Decagon",
+      "state": "Lagos",
+      "category": "IT / communication",
+      "des": "Decagon learning",
+      "id": 1
+    },
+    {
+      "name": "Customer Service",
+      "company": "Access Bank Plc",
+      "state": "Rivers",
+      "category": "Banking and Finance",
+      "des": "A good markerter with eight years experience and also a graduate with a degree of not less than second class upper.",
+      "id": 3
+    },
+    {
+      "name": "Farm manager",
+      "company": "Agric Co-operation",
+      "state": "Bayelsa",
+      "category": "Agriculture",
+      "des": "A good farm producer and a strategist in farm production",
+      "id": 4
+    },
+    {
+      "name": "Back End Developer",
+      "company": "Techub ",
+      "state": "Lagos",
+      "category": "IT / communication",
+      "des": "A senior bank end developer with a minimum of five years experience",
+      "id": 5
+    },
+    {
+      "name": "Medical doctor",
+      "company": "Federal medical center",
+      "state": "Bayelsa",
+      "category": "Medicine",
+      "des": "A medical practitioner with a four years ",
+      "id": 6
+    },
+    {
+      "name": "Supervisor",
+      "company": "NDCMB",
+      "state": "Bayelsa",
+      "category": "Engineering",
+      "des": "Offshore supervisor with eleven years of experience",
+      "id": 7
+    },
+    {
+      "name": "Bank Manager",
+      "company": "Fidelity Bank PLC",
+      "state": "Bayelsa",
+      "category": "Banking and Finance",
+      "des": "Must be a good accountant ",
+      "id": 8
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "aremieye ebimobowei",
+      "email": "ebi44ril@gmail.com",
+      "password": "1234"
+    },
+    {
+      "name": "Aremieye bibi",
+      "email": "bibiaremieye@gmail.com",
+      "password": "5678",
+      "id": 2
+    },
+    {
+      "name": "Aremieye ere",
+      "email": "aremieyeere@gmail.com",
+      "password": "favour",
+      "id": 3
+    },
+    {
+      "name": "Aremieye Tamaratombra",
+      "email": "tombra4ril@gmail.com",
+      "password": "tombra",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "IT / communication"
+    },
+    {
+      "id": 2,
+      "name": "Engineering"
+    },
+    {
+      "id": 3,
+      "name": "Medicine"
+    },
+    {
+      "id": 4,
+      "name": "Marketing"
+    },
+    {
+      "id": 5,
+      "name": "Banking and Finance"
+    },
+    {
+      "id": 6,
+      "name": "Agriculture"
+    },
+    {
+      "id": 7,
+      "name": "Human resources"
+    },
+    {
+      "name": "Education",
+      "id": 8
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Anambra"
+    },
+    {
+      "id": 2,
+      "name": "Abuja"
+    },
+    {
+      "id": 3,
+      "name": "Kano"
+    },
+    {
+      "id": 4,
+      "name": "Kaduna"
+    },
+    {
+      "id": 5,
+      "name": "Lagos"
+    },
+    {
+      "id": 6,
+      "name": "Katsina"
+    },
+    {
+      "id": 7,
+      "name": "Oyo"
+    },
+    {
+      "id": 8,
+      "name": "Kebbi"
+    },
+    {
+      "id": 9,
+      "name": "Rivers"
+    },
+    {
+      "id": 10,
+      "name": "Bauchi"
+    },
+    {
+      "id": 11,
+      "name": "Jigawa"
+    },
+    {
+      "id": 12,
+      "name": "Benue"
+    },
+    {
+      "id": 13,
+      "name": "Borno"
+    },
+    {
+      "id": 14,
+      "name": "Delta"
+    },
+    {
+      "id": 15,
+      "name": "Imo"
+    },
+    {
+      "id": 16,
+      "name": "Niger"
+    },
+    {
+      "id": 17,
+      "name": "Akwa ibom"
+    },
+    {
+      "id": 18,
+      "name": "Ogun"
+    },
+    {
+      "id": 19,
+      "name": "Sokoto"
+    },
+    {
+      "id": 20,
+      "name": "Ondo"
+    },
+    {
+      "id": 21,
+      "name": "Osun"
+    },
+    {
+      "id": 22,
+      "name": "Kogi"
+    },
+    {
+      "id": 23,
+      "name": "Zamfara"
+    },
+    {
+      "id": 24,
+      "name": "Enugu"
+    },
+    {
+      "id": 25,
+      "name": "Edo"
+    },
+    {
+      "id": 26,
+      "name": "Plateau"
+    },
+    {
+      "id": 27,
+      "name": "Adamawa"
+    },
+    {
+      "id": 28,
+      "name": "Cross rivers"
+    },
+    {
+      "id": 29,
+      "name": "Abia"
+    },
+    {
+      "id": 30,
+      "name": "Ekiti"
+    },
+    {
+      "id": 31,
+      "name": "Kwara"
+    },
+    {
+      "id": 32,
+      "name": "Gombe"
+    },
+    {
+      "id": 33,
+      "name": "Yobe"
+    },
+    {
+      "id": 34,
+      "name": "Taraba"
+    },
+    {
+      "id": 35,
+      "name": "Ebonyi"
+    },
+    {
+      "id": 36,
+      "name": "Nasarawa"
+    },
+    {
+      "id": 37,
+      "name": "Bayelsa"
+    }
+  ]
+}
